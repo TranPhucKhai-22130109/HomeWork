@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 70%; 
+    margin: 120px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 900px; 
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto 400px auto 1fr auto;
+    gap: 20px; 
+}   
+
+.header {
+    background-color: #d2a679;
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: rgb(238, 99, 6);
+    grid-column: 1; 
+    grid-row: 1; 
+}
+
+.company-image {
+    background-color: #999999;
+    height: 200px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    grid-column: 1; 
+    grid-row: 2; 
+
+}
+
+.company-image span {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+}
+
+.services-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    grid-column: 1; /* Đặt vào cột đầu tiên */
+    grid-row: 3; /* Đặt vào hàng thứ ba */
+}
+
+.services {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); /* 3 cột cho dịch vụ */
+    gap: 20px; 
+    grid-column: 1; /* Đặt vào cột đầu tiên */
+    grid-row: 4; /* Đặt vào hàng thứ tư */
+}
+
+.service-box {
+    width: 100%; 
+    height: 220px;
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #336699;
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: white;
+    grid-column: 1; /* Đặt vào cột đầu tiên */
+    grid-row: 5; /* Đặt vào hàng thứ năm */
+}
+.header, .header {
+    grid-column: 1;
+    grid-row: 1;
+}
