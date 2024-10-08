@@ -24,7 +24,7 @@ html, body, p{
     width: 50%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     
 }
 #section_normal_1 .omega .thirdbird{
@@ -40,6 +40,7 @@ html, body, p{
 #section_normal_4_2 .container{
     height: 670px;
     background-color: #333333;
+    margin: 0px;
 }
 #section_normal_4_2 .alpha{
     float: left;
@@ -91,5 +92,87 @@ html, body, p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+
+#section_normal_6 {
+    background-color: #eee; 
+    padding: 50px 0;
+}
+
+#section_normal_6 .envato_unbounce{
+    width: 1200px;
+    margin: auto;
+}
+.L1_style {
+    font-size: 30px; 
+    color: #333; 
+    text-align: center; 
+}
+
+.L2_style {
+    font-size: 20px; 
+    color:#d0d0d0;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+#section_normal_6 .envato_unbounce .stbox_Container{
+    display: flex;
+    justify-content: center;
+}
+
+.stbox {
+    background-color: #fff; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    display: inline-block; 
+    width: 500px;
+    height: 140px;
+    justify-content: center;
+}
+
+#section_normal_6 .envato_unbounce .container >#section_normal_6 .envato_unbounce .container .alpha .box_1, #section_normal_6 .envato_unbounce .container .omega .box_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#section_normal_6 .envato_unbounce .stbox_Container .alpha{
+    order: 0;
+}
+#section_normal_6 .envato_unbounce .container .omega{
+    
+}
+
+.logo_style {
+    max-width: 50px; 
+    height: auto; 
+}
+
+
+.txt {
+    font-size: 16px; 
+    color: #333; 
+    margin: 15px 0; 
+}
+
+.stars_span {
+    display: flex;
+    align-items: center; 
+}
+
+
+.env_st {
+    font-size: 14px; 
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+.env_st:hover {
+    text-decoration: underline; 
 }
 
