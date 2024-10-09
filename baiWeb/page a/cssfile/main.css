@@ -130,7 +130,7 @@ html, body, p{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     text-align: left;
     display: inline-block; 
-    width: 500px;
+    width: 1000px;
     height: 140px;
     justify-content: center;
 }
@@ -144,9 +144,7 @@ html, body, p{
 #section_normal_6 .envato_unbounce .stbox_Container .alpha{
     order: 0;
 }
-#section_normal_6 .envato_unbounce .container .omega{
-    
-}
+
 
 .logo_style {
     max-width: 50px; 
@@ -175,4 +173,77 @@ html, body, p{
 .env_st:hover {
     text-decoration: underline; 
 }
+
+.pixfort_agency_14 {
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.foot_st {
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.f1_style {
+    font-size: 32px;
+    font-weight: bold;
+    color: #6cae75; 
+    margin-bottom: 10px;
+}
+
+.f2_style {
+    font-size: 18px;
+    color: #7d7d7d; 
+    margin-bottom: 20px;
+}
+
+.get_2_btn a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #6cae75; 
+    text-decoration: none;
+    border: 2px solid #6cae75;
+    transition: all 0.3s ease;
+}
+
+.get_2_btn a:hover {
+    background-color: #6cae75;
+    color: #ffffff;
+}
+
+.rights_st {
+    font-size: 14px;
+    color: #b5b5b5; 
+    margin-top: 20px;
+}
+
+.pixfort_st {
+    color: #6cae75;
+}
+
+.social_button img {
+    width: 30px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.social_button:hover img {
+    transform: scale(1.1); 
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.slow_fade {
+    transition: all 0.3s ease;
+}
+
+.slow_fade:hover {
+    opacity: 0.8;
+}
+
 
