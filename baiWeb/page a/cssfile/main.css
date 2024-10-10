@@ -130,7 +130,7 @@ html, body, p{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     text-align: left;
     display: inline-block; 
-    width: 1000px;
+    width: auto;
     height: 140px;
     justify-content: center;
 }

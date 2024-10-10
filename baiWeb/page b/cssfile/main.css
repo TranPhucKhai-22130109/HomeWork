@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#section_text_2 .container {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    margin: auto;
+    width: 100%;
+    height: 120px;
+    max-width: 1200px;
+}
+
+#section_text_2 .container .alpha{
+    width: 50%;
+    text-align: left;
+
+}
+#section_text_2 .container .omega {
+    width: 50%;               
+    text-align: right;         
+}
+#section_text_2 .container .alpha .extra_small_padding{ 
+    width: auto;
+    height: 40px;
+}
+#section_text_2 .container .omega .btn_normal {
+    background-color: #f5800b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+#section_header_1 {
+    background-color: #ffffff; 
+     
+}
+
+.header_style {
+    padding: 10px 0; 
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: auto; 
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-brand {
+    margin-right: 20px; 
+    font-size: 24px;
+    color: #68686868; 
+    text-decoration: none; 
+}
+
+.navbar-nav {
+    display: flex; 
+    list-style: none;
+}
+
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.navbar-nav a {
+    color: #68686868;
+    text-decoration: none; 
+    font-size: 16px; 
+    padding: 8px 12px; 
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.right_socials .bottom-icons {
+    display: flex; 
+    list-style: none; 
+}
+.right_socials .bottom-icons li {
+    margin-left: 10px; 
+}
+
+.right_socials .bottom-icons a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+}
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ cho nút điều hướng */
+    width: 40px; /* Chiều rộng cho nút */
+    height: 40px; /* Chiều cao cho nút */
+    border-radius: 50%; /* Hình tròn cho nút */
+    display: flex; /* Sử dụng flexbox */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    color: white; /* Màu chữ */
+}
+
+.carousel-inner {
+    height: 500px; /* Điều chỉnh chiều cao nếu cần */
+}
+
+.carousel-image {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    height: 100%; /* Chiếm toàn bộ chiều cao */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.carousel-caption {
+    position: absolute; /* Định vị caption */
+    bottom: 20px; /* Cách dưới 20px */
+    left: 20px; /* Cách trái 20px */
+    background: rgba(0, 0, 0, 0.7); /* Nền mờ cho caption */
+    color: #fff; /* Màu chữ */
+    padding: 10px; /* Đệm cho caption */
+    border-radius: 5px; /* Bo góc cho caption */
+}
+
+.carousel-control {
+    background: rgba(255, 255, 255, 0.5); /* Màu nền cho nút điều hướng */
+    border-radius: 50%; /* Bo góc cho nút điều hướng */
+}
