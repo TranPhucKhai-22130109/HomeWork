@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 50px;
+    width: 600px;
+    height: 900px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+h3{
+    color: green;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: #f8f6f6;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #e3e3e3;
+}
+.Date_Gen{
+    display: flex;
+    width: 100%;
+}
+#Date_Of_Birth{
+    display: flex;
+    width: 40%; 
+}
+.frame-date{
+    width: 30px;
+}
+.Day{
+    width: 20%;
+} .Month{
+    width: 20%;
+} .Year{
+    width: 25%;
+}
+#Gender{
+    width: 70%;
+    padding-inline: 50px;
+}
+.gender-selection {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.gender-selection label {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #000;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+}
+
+.gender-selection label:last-of-type {
+    border-right: none;
+}
+
+.gender-selection input[type="radio"] {
+    display: none;
+}
+
+.gender-selection input[type="radio"]:checked + label {
+    background-color: #f0f0f0;
+    color: green;   
+}
