@@ -12,7 +12,7 @@ body{
 }
 .container{
     padding: 50px;
-    width: 600px;
+    width: 700px;
     height: 900px;
     background-color: #ffffff;
     border-radius: 20px;
@@ -60,6 +60,7 @@ input{
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 50%;
+    overflow: hidden;
 }
 
 .gender-selection label {
@@ -67,10 +68,11 @@ input{
     cursor: pointer;
     background-color: #f9f9f9;
     color: #000;
-    border-right: 1px solid #ccc;
     display: inline-block;
     text-align: center;
     flex: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-right: 1px solid #ccc;
 }
 
 .gender-selection label:last-of-type {
@@ -81,7 +83,106 @@ input{
     display: none;
 }
 
+/* Hiệu ứng chọn nút */
 .gender-selection input[type="radio"]:checked + label {
-    background-color: #f0f0f0;
-    color: green;   
+    background-color: green;
+    color: #ffffff;
 }
+.payment-selection {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 93%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.payment-selection label {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #000;
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-right: 1px solid #ccc;
+}
+
+.payment-selection label:last-of-type {
+    border-right: none;
+}
+
+.payment-selection input[type="radio"] {
+    display: none;
+}
+
+.payment-selection input[type="radio"]:checked + label {
+    background-color: green;
+    color: #ffffff;
+}
+.cvc-expiry {
+    display: flex;
+    width: 90%;
+    gap: 20px; /* Khoảng cách giữa CVC và Expiry Date */
+}
+
+.cvc-expiry {
+    display: flex;
+    width: 90%;
+    gap: 20px; /* Khoảng cách giữa CVC và Expiry Date */
+    align-items: center;
+}
+
+.cvc {
+    width: 50%; /* Card CVC chiếm 50% */
+    padding: 10px;
+    background-color: #f8f6f6;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cvc::before {
+    font-family: "Font Awesome 5 Free"; /* Đảm bảo Font Awesome được tải */
+    font-weight: 900;
+    color: #999;
+}
+
+.expiry-date {
+    display: flex;
+    width: 50%; 
+    gap: 10px;
+}
+.month, .year {
+    width: 50%; 
+    padding: 10px;
+    background-color: #f8f6f6;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none; 
+}
+
+.form-group label {
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px; 
+    transform: scale(1.2); 
+    width: 20px;
+}
+
+
+
+
